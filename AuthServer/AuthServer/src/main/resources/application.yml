@@ -1,0 +1,13 @@
+oauth2:
+    google:
+        client-id: 685751689309-risrtvbh92ho7iqk8898ddcclk0k3l7h.apps.googleusercontent.com
+        client-secret: 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
+        redirect-uri: https://cloud-computing-client.vercel.app/login/oauth2/code/google
+        token-uri: https://oauth2.googleapis.com/token
+        resource-uri: https://www.googleapis.com/oauth2/v2/userinfo
+
+spring:
+    data:
+        redis:
+            host: localhost
+            port: 6379
